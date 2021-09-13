@@ -98,7 +98,7 @@ nav ul a img {
   line-height: 38px !important;
 }
 
-input[type=search]:not(.browser-default) {
+input[type='search']:not(.browser-default) {
   display: block;
   padding: 11px 8px 11px 72px;
   width: 100%;
@@ -111,12 +111,12 @@ input[type=search]:not(.browser-default) {
   color: #757575;
 }
 
-input[type=search]:focus {
+input[type='search']:focus {
   border-bottom: none !important;
   box-shadow: none !important;
 }
 
-input[type=search]::placeholder {
+input[type='search']::placeholder {
   color: #757575;
 }
 
@@ -159,24 +159,24 @@ input[type=search]::placeholder {
   font-size: 13px;
 }
 
-.side-nav li>a,
-.side-nav li>a>i.material-icons {
+.side-nav li > a,
+.side-nav li > a > i.material-icons {
   height: 40px;
   line-height: 40px;
 }
 
-.side-nav li>a>i.material-icons {
+.side-nav li > a > i.material-icons {
   margin-right: 24px;
 }
 
-.side-nav li>a {
+.side-nav li > a {
   padding: 0 16px;
   font-weight: normal;
   font-size: 13px;
   color: #616161;
 }
 
-.side-nav li>a:hover {
+.side-nav li > a:hover {
   border-radius: 2px;
 }
 
@@ -201,9 +201,8 @@ input[type=search]::placeholder {
   color: #d0da08;
 }
 
-.modal { 
+.modal {
   word-wrap: normal;
-  
 }
 #progress-bar {
   width: 100%;
@@ -214,7 +213,7 @@ input[type=search]::placeholder {
 }
 
 /* drag n drop */
- 
+
 .drop-area {
   border: 2px dashed #ccc;
   border-radius: 20px;
@@ -224,7 +223,7 @@ input[type=search]::placeholder {
 }
 .drop-area.highlight {
   border-color: purple;
-} 
+}
 #fileElem {
   display: none;
 }
